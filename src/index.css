@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(9, 30, 155);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.profile-card .profilepic {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile-card .heading {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: #a09d9d;
+}
+
+.profile-card .description {
+  font-family: 'Times New Roman', Times, serif;
+  color: #cccaca;
+}
+
+.profile-card {
+  background-color: #212cca;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #a09d9d;
+  border-radius: 10px;
+  min-width: 300px;
+  height: 350px;
+  max-width: 300px;
+  display: inline-block;
+  margin: 20px;
+  overflow:scroll;
+}
+
+.profile-card .weatherapp {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.profile-card .weatherapp-button {
+  border: none;
+  background-color: rgb(3, 157, 218);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: black;
+  cursor: pointer;
+}
+
+.profile-card, .weatherapp-skills, li{
+  color: #cccaca;
+;
+}
+
+.formImg {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.calorieCounterImg {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.todoListImg {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+ul {
+  text-align: left;
+  padding:5px;
+}
+
+div p ul li a:link{
+  color: black;
+  background-color: #cccaca;
+  border-radius: 4px;
+  text-decoration: none;
+}
+div p ul li a:hover{
+  background-color: tomato;
+  border-radius: 4px;
+}
+
+div p ul li a:visited{
+  color: black;
+  text-decoration: none;
+}
